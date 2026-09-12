@@ -12,6 +12,9 @@
 * 🧪 **Potentiostat & Electrochemical Cell Simulation** – Simulation of cyclic voltammetry in NI Multisim, featuring the design of a potentiostat  ([Inspired](https://doi.org/10.1007/978-3-030-69117-2_2)) and a three-electrode electrochemical cell modeled as an equivalent Randles circuit. Parametric analysis of individual component values, scan rate analysis, AC sweep (impedance behavior), and statistical tolerance evaluation via Monte Carlo analysis.
 <img width="1000" height="200" alt="cyclic_voltammetry" src="https://github.com/user-attachments/assets/de2eed65-fda5-41d2-8fe5-f1681cbc7469" />
 
+* 💥 **Laser Pointer and Moving Target** – An embedded gaming and target practice system featuring a laser-activated moving target built with Arduino and controlled via multi-modal state logic. Implemented a physical color-wavelength filter over the photodiode to isolate the red laser spectrum from ambient light interference, combined with an automated dynamic threshold calibration during startup. Multiple gameplay modes (Static Target vs. Randomized Servo-Driven Motion via `randomSeed`), real-time hit tracking with an interrupt-like button debouncing debounce cycle, and a success state trigger upon reaching 5 hits.**[Code for the Target](https://github.com/vhrncir/school_projects/blob/main/red_light_target_code.ino)**
+* <img width="1042" height="607" alt="laser_target" src="https://github.com/user-attachments/assets/a7025ab3-d253-4b9c-9ce4-17f872dabf9f" />
+
 
 
 
