@@ -9,6 +9,10 @@
   <img width="500" height="208" alt="schema" src="https://github.com/user-attachments/assets/38fa5a65-7643-46d7-9cff-74be4c83b17a" style="vertical-align: middle;" />
 </p>
 
+* 🧪 **Potentiostat & Electrochemical Cell Simulation** – Simulation of cyclic voltammetry in NI Multisim, featuring the design of a potentiostat  ([Inspired](https://doi.org/10.1007/978-3-030-69117-2_2)) and a three-electrode electrochemical cell modeled as an equivalent Randles circuit. Parametric analysis of individual component values, scan rate analysis, AC sweep (impedance behavior), and statistical tolerance evaluation via Monte Carlo analysis.
+<img width="1000" height="200" alt="cyclic_voltammetry" src="https://github.com/user-attachments/assets/de2eed65-fda5-41d2-8fe5-f1681cbc7469" />
+
+
 
 
 
