@@ -13,7 +13,16 @@
 <img width="1000" height="200" alt="cyclic_voltammetry" src="https://github.com/user-attachments/assets/de2eed65-fda5-41d2-8fe5-f1681cbc7469" />
 
 * 💥 **Laser Pointer and Moving Target** – An embedded gaming and target practice system featuring a laser-activated moving target built with Arduino and controlled via multi-modal state logic. Implemented a physical color-wavelength filter over the photodiode to isolate the red laser spectrum from ambient light interference, combined with an automated dynamic threshold calibration during startup. Multiple gameplay modes (Static Target vs. Randomized Servo-Driven Motion via `randomSeed`), real-time hit tracking with an interrupt-like button debouncing debounce cycle, and a success state trigger upon reaching 5 hits.**[Code for the Target](https://github.com/vhrncir/school_projects/blob/main/red_light_target_code.ino)**
-* <img width="1042" height="607" alt="laser_target" src="https://github.com/user-attachments/assets/a7025ab3-d253-4b9c-9ce4-17f872dabf9f" />
+<img width="1042" height="607" alt="laser_target" src="https://github.com/user-attachments/assets/a7025ab3-d253-4b9c-9ce4-17f872dabf9f" />
+
+📢 **Noise Level Meter and Flight Noise Analyzer** – An analog-digital sound level meter, featuring a custom-tuned pre-amplifier circuit, hardware low-pass filtering, and an Arduino-based processing unit ([Inspired](https://bestengineeringprojects.com/sound-level-meter-circuit-using-arduino/)). Designed an analog front-end using a BCM9765P-44 condenser microphone with a low-noise amplifier set to a 200x gain. Implemented a hardware passive RC low-pass filter ($f_c \approx 16\text{ kHz}$) based on human ear physiology to eliminate high-frequency noise. Decibel calculation from ADC values using a logarithmic/linear regression method, real-time averaging (1-second intervals) displayed on an I2C LCD panel, and a 3-stage LED visual alert system for noise safety thresholds.
+
+The project was extended to analyze environmental aircraft noise over Prague during flight traffic alterations (the signal was obtained employing the DJI Mic Mini). Conducted time-frequency analysis using Short-Time Fourier Transforms (STFT) to generate spectrograms of aircraft flyovers and calculated the equivalent continuous sound level ($L_{Aeq}$) to quantify the environmental impact of shifting flight paths.
+
+<p align="center">
+  <img width="500" height="250" alt="Noisemeter" src="https://github.com/user-attachments/assets/acc3304d-a45b-45d3-846d-b20a1062fc90" style="vertical-align: middle;       margin-right: 10px;" />
+  <img width="500" height="250" alt="Noise_analysis" src="https://github.com/user-attachments/assets/c5599369-b433-4815-8d05-bce73f70a147" style="vertical-align: middle;" />
+</p>
 
 
 
