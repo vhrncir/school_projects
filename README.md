@@ -24,7 +24,10 @@ The project was extended to analyze environmental aircraft noise over Prague dur
   <img width="500" height="250" alt="Noise_analysis" src="https://github.com/user-attachments/assets/c5599369-b433-4815-8d05-bce73f70a147" style="vertical-align: middle;" />
 </p>
 
+### 🏥 Regional Healthcare Quality Mapping in the Czech Republic
+A statistical data analytics team project focused on identifying key socio-economic and capacity drivers to model regional healthcare quality (mortality and hospitalization rates) across Czech regions using the R language. Performed univariate and multivariate linear regression analysis. Evaluated and validated models against Gauss-Markov assumptions, dealing with a small sample size constraint while optimizing predictive capabilities. Disproved the direct statistical significance of medical staff salaries on regional mortality and hospitalization rates. Developed a highly robust multivariate model for hospitalization rates ($R^2 = 86.5\%$, $p\text{-value} = 0.0006$) driven by regional capacity metrics. Applied data clustering (PCA, k-means) to identify geographic healthcare trends (North vs. South mortality split, and a severe healthcare centralization load in Prague compared to its surrounding regions).
 
+<img width="437" height="263" alt="Regional_Healthcare_Quality_Mapping" src="https://github.com/user-attachments/assets/c473264f-bca3-499a-bc60-e9410a9113fc" />
 
 
 
