@@ -18,10 +18,11 @@ The project was extended to analyze environmental aircraft noise over Prague dur
 
 * 🦵 **Edema Sensor** – An end-to-end IoT medical monitoring device designed to detect swelling or edema using a flex sensor, trigger local alarms, and host a wireless web interface for remote caregiver acknowledgment. **[Code-ESP](https://github.com/vhrncir/school_projects/blob/main/Edema_sensor_ESP.ino)** and **[Code-Arduino](https://github.com/vhrncir/school_projects/blob/main/edema_sensor_arduino.ino)**
 
-An automated hardware testing and calibration script utilizing a stepper motor to sweep through standard, extreme, and fault/disconnection states, logging flex sensor telemetry for precision validation. **[Code-TestRig](https://github.com/vhrncir/school_projects/blob/main/edema_sensor_test.ino)**
+An automated hardware testing and calibration system utilizing a stepper motor to sweep through standard, extreme, fault/disconnection, and hysteresis states, logging flex sensor telemetry for precision validation. **[Code-TestRig](https://github.com/vhrncir/school_projects/blob/main/edema_sensor_test.ino)** Paired with a real-time Python analysis script featuring moving-average smoothing, polynomial regression, and hysteresis loop evaluation. **[Code-Analysis](https://github.com/vhrncir/school_projects/blob/main/edema_sensor_analysis.py)**
+(*developed with AI assistance via Gemini*).
 
 <p align="center">
   <img width="380" height="570" alt="MĚŘENÍ OTOKU NOHOU" src="https://github.com/user-attachments/assets/a28f6d2f-06c8-46b4-a2c6-eedbf28a665d" style="vertical-align: middle;     margin-right: 10px;" />
-  <img width="500" height="208" alt="schema" src="https://github.com/user-attachments/assets/38fa5a65-7643-46d7-9cff-74be4c83b17a" style="vertical-align: middle;" />
+  <img width="600" height="250" alt="schema" src="https://github.com/user-attachments/assets/38fa5a65-7643-46d7-9cff-74be4c83b17a" style="vertical-align: middle;" />
 </p>
 
